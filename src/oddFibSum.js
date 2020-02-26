@@ -5,14 +5,14 @@
 //  Course: Computer Science - Interactive Aplication Programing
 //
 
-//
+//Funcion que devuelve el valor de la sucecion de fibonacci en la posicion indicada
 function fibonacci(position) {
+  let first = 0, second = 1, fib = 0;
   if (position === 0) {
-    return 0;
+    return first;
   } else if (position === 1) {
-    return 1;
+    return second;
   } else {
-    let first = 0, second = 1, fib = 0;
     for (let i = 0; i < position - 1; i++) {
       fib = first + second;
       first = second;
