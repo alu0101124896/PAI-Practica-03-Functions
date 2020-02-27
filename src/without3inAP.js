@@ -14,10 +14,10 @@ function isAritmProg3(x, y, z) {
 
 //Funcion que imprime por pantalla el numero indicado de valores que no compongan una progrecion aritmetica
 function nonAritmProg(numOfTerms) {
+  let candidate = 2;
   let sequence = [0, 1];
-  while (sequence.length < numOfTerms) {
+  while (sequence.length <= numOfTerms) {
     let isAritmProg3Flag = false;
-    let candidate = 2;
     for (let i = 0; i < sequence.length; i++) {
       for (let j = i + 1; j < sequence.length; j++) {
         if (isAritmProg3(sequence[i], sequence[j], candidate)) {
