@@ -5,14 +5,14 @@
 //  Course: Computer Science - Interactive Aplication Programing
 //
 
-//Funcion que comprueba si los valores proporcionados componen una progresion aritmetica de longitud 3
+// Funcion que comprueba si los valores proporcionados componen una progresion aritmetica de longitud 3
 function isAritmProg3(x, y, z) {
   d = y - x;
   e = z - y;
   return d === e;
 }
 
-//Funcion que imprime por pantalla el numero indicado de valores que no compongan una progrecion aritmetica
+// Funcion que imprime por pantalla el numero indicado de valores que no compongan una progrecion aritmetica
 function nonAritmProg(numOfTerms) {
   let candidate = 2;
   let sequence = [0, 1];
@@ -41,7 +41,7 @@ function nonAritmProg(numOfTerms) {
   console.log(succession);
 }
 
-//Funcion principal
+// Funcion principal
 function main() {
   if (process.argv.length !== 3 || isNaN(process.argv[2])) {
     console.log('Error: Ejecute este programa aportando como argumento en la linea de comandos un numero entero.');
