@@ -1,9 +1,11 @@
-//  
-//  File: mersenne.js
-//  Author: Sergio Tabares Hernández (alu0101124896@ull.edu.es)
-//  Date: Winter 2020
-//  Course: Computer Science - Interactive Aplication Programing
-//
+/**  
+ *  File: oddFibSum.js
+ *  Author: Sergio Tabares Hernández (alu0101124896@ull.edu.es)
+ *  Date: Winter 2020
+ *  College: University of La Laguna
+ *  Course: Computer Science - Interactive Aplication Programing
+ *  Description: This program calculates the sum of the first n terms of the fibonacci secuence.
+ */
 
 //Funcion que devuelve el valor de la sucecion de fibonacci en la posicion indicada
 function fibonacci(position) {

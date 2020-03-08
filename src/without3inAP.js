@@ -1,9 +1,11 @@
-//  
-//  File: mersenne.js
-//  Author: Sergio Tabares Hernández (alu0101124896@ull.edu.es)
-//  Date: Winter 2020
-//  Course: Computer Science - Interactive Aplication Programing
-//
+/**  
+ *  File: without3inAP.js
+ *  Author: Sergio Tabares Hernández (alu0101124896@ull.edu.es)
+ *  Date: Winter 2020
+ *  College: University of La Laguna
+ *  Course: Computer Science - Interactive Aplication Programing
+ *  Description: This program calculates the first n trios that conform an arithmetic progresion
+ */
 
 // Funcion que comprueba si los valores proporcionados componen una progresion aritmetica de longitud 3
 function isAritmProg3(x, y, z) {

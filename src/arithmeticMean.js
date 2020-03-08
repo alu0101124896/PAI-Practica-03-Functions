@@ -13,7 +13,7 @@ function arithmeticMean(...processArgs) {
   for (let arrayPosition in processArgs) {
     totalSum += Number(processArgs[arrayPosition]);
   }
-  return (totalSum / processArgs.length);
+  return totalSum / processArgs.length;
 }
 
 // Funcion principal

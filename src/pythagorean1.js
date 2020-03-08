@@ -2,7 +2,9 @@
  *  File: pythagorean1.js
  *  Author: Sergio Tabares Hernández (alu0101124896@ull.edu.es)
  *  Date: Winter 2020
+ *  College: University of La Laguna
  *  Course: Computer Science - Interactive Aplication Programing
+ *  Description: This program checks if the passed throug command line conform a pythagorean trio
  */
 
 // Funcion que devuelve true si los parametros pasados conforman un trio pitagorico

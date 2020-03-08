@@ -1,9 +1,11 @@
-//  
-//  File: mersenne.js
-//  Author: Sergio Tabares Hernández (alu0101124896@ull.edu.es)
-//  Date: Winter 2020
-//  Course: Computer Science - Interactive Aplication Programing
-//
+/**  
+ *  File: without2.js
+ *  Author: Sergio Tabares Hernández (alu0101124896@ull.edu.es)
+ *  Date: Winter 2020
+ *  College: University of La Laguna
+ *  Course: Computer Science - Interactive Aplication Programing
+ *  Description: This program checks if the values passed throug command line are on the secuence
+ */
 
 //Funcion que comprueba si un numero que se le pasa por parametros pertenece a la secuencia
 function isOnSecuence(candidate) {

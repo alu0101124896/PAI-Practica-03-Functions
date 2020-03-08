@@ -2,7 +2,9 @@
  *  File: pythagorean.js
  *  Author: Sergio Tabares Hernández (alu0101124896@ull.edu.es)
  *  Date: Winter 2020
+ *  College: University of La Laguna
  *  Course: Computer Science - Interactive Aplication Programing
+ *  Description: This program calculates the first n pythagorean trios
  */
 
 // Cargado de la libreria perf_hooks

@@ -2,7 +2,7 @@
  *  File: harmonicMean.js
  *  Author: Sergio Tabares Hernández (alu0101124896@ull.edu.es)
  *  Date: Winter 2020
- *  College: Universidad de La Laguna
+ *  College: University of La Laguna
  *  Course: Computer Science - Interactive Aplication Programing
  *  Description: This program calculates the harmonic mean of the values passed throug command line
  */
